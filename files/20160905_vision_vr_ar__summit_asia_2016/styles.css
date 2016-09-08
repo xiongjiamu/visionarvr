@@ -6854,7 +6854,10 @@
   height:45px;
   background:inherit;
   background-color:rgba(242, 242, 242, 1);
-  border:none;
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(204, 204, 204, 1);
   border-radius:5px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
